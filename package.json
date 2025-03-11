@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@jest/globals": "^29.7.0",
     "animate.css": "^4.1.1",
     "react-icons": "^4.12.0"
   }

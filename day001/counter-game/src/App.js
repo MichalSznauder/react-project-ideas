@@ -10,6 +10,7 @@ import React, { useCallback, useMemo } from 'react';
 const HomePage = ({ data, onAction }) => {
   // Przykład użycia useMemo do zapamiętania kosztownych obliczeń
   const computedData = useMemo(() => {
+
     return data.map(item => item.value * 2);
   }, [data]);
 
